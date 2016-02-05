@@ -53,6 +53,7 @@ $route['dunno'] = function() {
 $route['comp(\d+)/.*'] = 'Wise/bingo';
 $route['sleep'] = "first/zzz";
 $route['show/(:num)'] = 'First/gimmie/3';
+$route['([a-zA-Z]{4})/bingo'] = "bingo/index";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
